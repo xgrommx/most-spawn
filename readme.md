@@ -1,4 +1,6 @@
-### `most-spawn` is a library which spawns a generator function which allows for Promises, Streams sequences, Arrays, Objects, Generators and functions. Also it support complicated Objects and Array which contains nested Streams, Promises, Objects, Arrays.
+### `most-spawn`
+========
+A library which spawns a generator function which allows for Promises, Streams sequences, Arrays, Objects, Generators and functions. Also it support complicated Objects and Array which contains nested Streams, Promises, Objects, Arrays.
 
 ### Todo
 * Create some tests.
