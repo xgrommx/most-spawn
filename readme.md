@@ -24,3 +24,5 @@ spawn(function *() {
     };
 }).observe(x => console.log(x));
 ```
+========
+Was inspired by [Rx.Observable.spawn](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/spawn.md) which was inspired by [co.spawn](https://github.com/tj/co#cofnthen-val--). Also regarding with [Reactive-Extensions/RxJS#855](https://github.com/Reactive-Extensions/RxJS/pull/855)
