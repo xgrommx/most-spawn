@@ -1,8 +1,8 @@
 {
   "name": "most-spawn",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.2",
+  "description": "A library which spawns a generator function which allows for Promises, Streams sequences, Arrays, Objects, Generators and functions. Also it support complicated Objects and Array which contains nested Streams, Promises, Objects, Arrays.",
+  "main": "build/index.js",
   "dependencies": {
     "most": "^0.18.2"
   },
@@ -13,8 +13,21 @@
   },
   "scripts": {
     "watch": "babel --watch=./src --out-dir=./build",
-    "build": "babel ./src --out-dir=./build"
+    "build": "babel ./src --out-dir=./build",
+    "prepublish": "npm run build"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgrommx/most-spawn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xgrommx/most-spawn/issues"
+  },
+  "homepage": "https://github.com/xgrommx/most-spawn#readme"
 }
